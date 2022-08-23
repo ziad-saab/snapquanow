@@ -24,6 +24,8 @@ export const streamTokenPrice = (params: StreamTokenPriceRequest) => {
         const midPoint = (data.bestAsk + data.bestBid) / 2
 
         try {
+          // This is a hack. We're "streaming" data by calling the callback method provided by the invoking snap.
+          // Ideally, we'd be able to also stream data directly from a Snap to a Dapp.
           const keepStreaming = await wallet.request({
             method: 'wallet_invokeSnap',
             params: [params.callback.snapId, {
