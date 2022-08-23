@@ -1,24 +1,25 @@
 {
-  "version": "0.7.0",
-  "proposedName": "MetaMask Template Snap",
-  "description": "A MetaMask Snap template.",
+  "version": "0.1.0",
+  "proposedName": "Snapquanow",
+  "description": "Metamask Snap to get price feeds from Aquanow's API.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/snap-template.git"
+    "url": "https://github.com/ziad-saab/snapquanow.git"
   },
   "source": {
-    "shasum": "W4FN/2A1mQSjjrO95MGptw7pr+UR8913AOIksoajQSo=",
+    "shasum": "bp+99f3a6YV8w+puV7bGTF4v3alwnCaU1CaAViHJ2HE=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
         "iconPath": "images/icon.svg",
-        "packageName": "@metamask/template-snap",
+        "packageName": "snapquanow",
         "registry": "https://registry.npmjs.org/"
       }
     }
   },
   "initialPermissions": {
-    "snap_confirm": {}
+    "endowment:long-running": {},
+    "endowment:network-access": {}
   },
   "manifestVersion": "0.1"
 }

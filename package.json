@@ -1,13 +1,13 @@
 {
-  "name": "@metamask/template-snap",
-  "version": "0.7.0",
-  "description": "The 'Hello, world!' of MetaMask Snaps.",
+  "name": "snapquanow",
+  "version": "0.1.0",
+  "description": "Metamask Snap to get price feeds from Aquanow's API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/snap-template.git"
+    "url": "https://github.com/ziad-saab/snapquanow.git"
   },
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "src/index.ts",
   "files": [
     "dist/",
     "images/",
@@ -15,9 +15,9 @@
   ],
   "scripts": {
     "build:clean": "yarn clean && yarn build",
-    "build:website": "node ./scripts/build-website.js",
     "build": "mm-snap build",
     "serve": "mm-snap serve",
+    "watch": "mm-snap watch",
     "clean": "rimraf dist/*",
     "test": "echo 'TODO'",
     "lint:eslint": "eslint . --cache --ext js,ts",
@@ -32,6 +32,8 @@
     "@metamask/eslint-config-jest": "^8.0.0",
     "@metamask/eslint-config-nodejs": "^8.0.0",
     "@metamask/snaps-cli": "^0.18.0",
+    "@metamask/snap-types": "^0.19.0",
+    "@metamask/types": "^1.1.0",
     "eslint": "^7.30.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
