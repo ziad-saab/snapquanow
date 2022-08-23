@@ -1,4 +1,4 @@
-# Snapquanow
+# Snapquanow &middot; ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg) [![npm version](https://img.shields.io/npm/v/snapquanow.svg?style=flat)](https://www.npmjs.com/package/snapquanow)
 
 This MetaMask Snap is used to fetch or stream token pricing data from Aquanow.
 
