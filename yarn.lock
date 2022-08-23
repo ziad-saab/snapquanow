@@ -1798,9 +1798,9 @@
     "@metamask/controllers" "^30.0.0"
 
 "@metamask/snap-types@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/@metamask/snap-types/-/snap-types-0.19.0.tgz#ead590ecbb840cf2cd1c4feffbf8228ca87bc912"
-  integrity sha512-8huwKsiM05mG8/V8/zvJ3xy555P1RPk1fs1znbJaGTYk3HAJVW2i3d95iOcM6Cs+zbTwsrFfGnO2yqH31anPgA==
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/@metamask/snap-types/-/snap-types-0.19.1.tgz#125f1d5835a7a465172b6b8097b29b91846e275d"
+  integrity sha512-GpNCE34txVKXva5PDzI9HQ/UamOteLzXh4awESu2ERfqpoXdethLBuVALFgwNTzZCFsBcwZHLAatQs7ft/ijjQ==
   dependencies:
     "@metamask/controllers" "^30.0.0"
 
