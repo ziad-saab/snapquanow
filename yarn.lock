@@ -1805,9 +1805,9 @@
     "@metamask/controllers" "^30.0.0"
 
 "@metamask/snap-utils@^0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@metamask/snap-utils/-/snap-utils-0.18.0.tgz#0e4aa112fe88c857c75daf184e1093e7cac73c81"
-  integrity sha512-iEv2c2IsIZgDVcqdgozyA3zRkV8OqK00rw7AvNpUZMtHZW/yeEKVPN3Y6BiN0EvQnWRXWZm5pdYTPDLyZJhhfg==
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/@metamask/snap-utils/-/snap-utils-0.18.1.tgz#3c85d2d15ce1eac7e55f8ce00500ef7ff51a5aaf"
+  integrity sha512-2QVkgSkeeyjwKvxIZTuqudo5hMkn6IbI74Kzx/yJEOuK28MYyxx1FrPKlu7yTG2ZRJQ1zM9pBMHPF3XhZ4manA==
   dependencies:
     "@chainsafe/strip-comments" "^1.0.7"
 
